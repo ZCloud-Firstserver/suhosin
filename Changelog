@@ -1,3 +1,7 @@
+2015-06-04- 0.9.37.2
+    - Forked
+    - Backport CVE-2015-4024 from 7670e669c000f835169dd9b85af6d2f45f303040
+
 2014-12-12 - 0.9.37.1
     - Changed version string to 0.9.37.1 (without -dev)
     - Relaxed array index blacklist (removed '-') due to wordpress incompatibility

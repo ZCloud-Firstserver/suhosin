@@ -22,7 +22,7 @@
 #ifndef PHP_SUHOSIN_H
 #define PHP_SUHOSIN_H
 
-#define SUHOSIN_EXT_VERSION  "0.9.37.1"
+#define SUHOSIN_EXT_VERSION  "0.9.37.2"
 
 /*#define SUHOSIN_DEBUG*/
 #define SUHOSIN_LOG "/tmp/suhosin_log.txt"
@@ -248,6 +248,7 @@ ZEND_BEGIN_MODULE_GLOBALS(suhosin)
 
 /*	fileupload */
 	long  upload_limit;
+	long  upload_max_newlines;
 	long  num_uploads;
 	zend_bool  upload_disallow_elf;
 	zend_bool  upload_disallow_binary;
